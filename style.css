@@ -67,6 +67,12 @@ nav H3 a{
     margin-top: 3vh;
     font-size: 6vh;
 }
+.fa-cart-shopping{
+  color: #ffffff; font-size: 4.5vh; 
+ }
+ .fa-bars{
+   overflow: hidden; color: #ffffff; margin-left: 5vh; margin-right: 1vh;
+ }
 @media screen and (max-width: 768px){
   .nav2 a{
     font-size: 3.5vh;
@@ -74,6 +80,10 @@ nav H3 a{
   .fa-solid{
     font-size: 3.5vh;
   }
+ .fa-cart-shopping{
+  font-size: 3.5vh;
+  margin-right: -6vw;
+ }
   .main video{
     width: 100%;
     height: 100vh;
@@ -365,6 +375,9 @@ margin-left:0vh;
       flex-wrap: wrap;
       margin-top: -15vh;
     }
+    .fotter1{
+      height: 79vh;
+    }
   }
   .fo div{
     overflow: hidden;
@@ -407,7 +420,13 @@ margin-left:0vh;
     font-size: 3vh;
     text-align: center;
   }
-
+  @media screen and (max-width: 768px){
+    .foot3 h3{
+      font-size: 2vh;
+      margin-left: 8vw;
+      margin-right: 8vw;
+    }
+  }
   .tick {
     font-family: "Sofadi One", system-ui;
     height: 19vh;
@@ -431,6 +450,23 @@ margin-left:0vh;
     height: 8.8vh;
     width: 4vw;
   }
+  @media screen and (max-width: 768px){
+    .tick{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 14vh;
+    }
+    .item{
+      margin-top: -1vh;
+    }
+    .item img{
+      margin-top: 2vh;
+      margin-left: 3vh;
+      height: 6vh;
+      width: 9.6vw;
+    }
+  }
   .fotter2n{
     background-color: #FECF07;
     height: 60vh;
@@ -441,6 +477,7 @@ margin-left:0vh;
     font-size: 3vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
   .f2{
     font-family: "Dancing Script", cursive;
     font-size: 7vh;
@@ -457,6 +494,7 @@ margin-left:0vh;
     text-align: center;
     display: flex;
   }
+
   .f4 div{
     border-radius: 50%;
     margin: 3vh;
@@ -469,6 +507,38 @@ margin-left:0vh;
     height: 12vh;
     width: 5.8vw;
   }
+  .hr5{
+    border: none; 
+    height: 3px; width: 27%; margin-left: 36%;
+    background-color: #333;
+  }
+  @media screen and (max-width: 768px){
+    .fotter2n p{
+      font-size: 1.6vh;
+    }
+    .f2{
+      font-size: 3.3vh;
+    }
+    .f3 b{
+      font-size: 3.4vh;
+    }
+    .hr5{
+      height: 1.6px;
+      width: 60%;
+      margin-left: 9.6vh;
+    }
+    .f4{
+      flex-wrap: wrap;
+    }
+    .f4 a div {
+    height: 8vh;
+      width: 19vw;
+    }
+    .f4 a div img{
+      height: 8vh;
+      width: 19vw;
+    }
+  }
   .rfotter{
     display: flex;
     height: 80vh;
@@ -478,9 +548,8 @@ margin-left:0vh;
 width: 80%;
 height: 90%;
 display:flex;
-
-/* background-color: red; */
   }
+ 
   .rf1 div{
     flex-direction: column;
     margin-top: 4vh;
@@ -520,4 +589,55 @@ display:flex;
     height: 90%;
     /* background-color: yellow; */
     width: 20%;
+  }
+  @media screen and (max-width: 768px){
+    .rfotter{
+      height: 58vh;
+      /* background-color: red; */
+    }
+    .rf1{
+      /* margin-left: 10vh; */
+  width: 80%;
+  height: 90%;
+  /* flex-wrap: wrap; */
+  margin-left: 1vh;
+  margin-right: 1vh;
+  justify-content: space-evenly;
+    }
+    .rf1 div{
+      margin-top: 2vh;
+      margin-left: 1.8vh;
+      margin-right: 1.8vh;
+    }
+    .ss{
+
+      width: 35%;
+      margin-top: 2vh;
+    }
+    .rf1 div a{
+      display: block; /* This makes each anchor tag take up the full width and appear on a new line */
+      margin-top: 1vh; /* Optional: Adds space between each link */
+      text-decoration: none; /* Removes underline from the links */
+      color: black; /* Optional: Set the color of the links */
+    }
+    .ss h2{
+      font-family: Rubik;
+      font-size: 1.6vh;
+      font-weight: 500;
+    }
+    .ss p{
+      font-size: 0.7vh;
+    }
+    .ss a{
+      font-size: 1.4vh;
+    }
+    /* .rf1 :nth-child(1){
+      display: none;
+    } */
+    .rf2{
+      display: none;
+    }
+    #d{
+      display:none;
+    }
   }
