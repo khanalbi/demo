@@ -236,9 +236,13 @@ nav H3 a{
    @media  screen and (max-width:768px){
     .list{
       margin-top: 2vh;
-      margin-left: 1.3vh;
+      margin-left: 1vh;
+      display: flexbox;
      flex-wrap: wrap;
-     flex-direction: row;
+     /* flex-direction: column; */
+    }
+    .list a .l{
+      width: 20px;
     }
     /* .list div{
       font-size: 1.2vh;
@@ -269,9 +273,7 @@ nav H3 a{
   .list div a{
     margin-top: 25vh;
    }
-   .la div a {
-    font-size: 15vh;
-   }
+   
     }
    .list div a:hover{
 color: rgb(12, 12, 12);
@@ -284,7 +286,17 @@ color: rgb(12, 12, 12);
   .show{
     font-size: 2.3vh;
   }
-
+  @media screen and (max-width: 768px) {
+    .la a{
+      font-size: 2.3vh;
+    }
+    .la span{
+      font-size: 2vh;
+    }
+    .show{
+      font-size: 2.1vh;
+    }
+  }
 
   .fotter1{
     background-color: #FFF2F3;
