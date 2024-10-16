@@ -311,6 +311,7 @@ color: rgb(12, 12, 12);
     margin-left: 10vh;
     margin-top: 12vh;
     display: flex;
+    justify-content: space-evenly;
   }
   .foot1 h2{
     font-size: 4.6vw;
@@ -325,6 +326,45 @@ margin-top: 4vh;
     justify-content: center;
     display: flex; margin-top: -6vh;
     /* background-color: red; */
+  }
+  .hr3{
+    border: none; margin-top: 9vh;
+        height: 3px; width: 27%; 
+        background-color: #333;
+  }
+  .hr4{
+    border: none; margin-top: 9vh;
+        height: 3px;  width: 27%;
+        background-color: #333;
+  }
+  @media screen and (max-width: 768px){
+    
+    .foot1{
+      margin-left: 2vh;
+      margin-top: 8vh;
+    }
+    .foot1 h2{
+      font-size: 2vh;
+      margin-left: 1vh;
+    margin-right: 1vh;
+    }
+    .hr3{
+      margin-top: 5vh;
+      width: 30%;
+margin-left:0vh;
+    }
+    .hr4{
+      margin-top: 5vh;
+      width: 30%;
+      
+    }
+    .foot1 h2{
+      display: flex;
+    }
+    .fot2{
+      flex-wrap: wrap;
+      margin-top: -15vh;
+    }
   }
   .fo div{
     overflow: hidden;
@@ -345,6 +385,22 @@ margin-top: 4vh;
     width: 8vw;
     object-fit: cover;
     overflow: hidden;
+  }
+  @media screen and (max-width: 768px){
+    .fo div{
+      height: 11vh;
+      /* margin: 2vw; */
+      width: 22vw;
+      margin-left: 2vh;
+      margin-right: 2vh;
+      margin-top: 2.5vh;
+    }
+    .fo div img{
+      height: 11vh;
+      /* margin: 2vw; */
+      width: 22vw;
+      object-fit: cover;
+    }
   }
   .foot3{
     margin-top: 7vh;
